@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Md. Al-Amin | Graphic Designer</title>
+  <meta name="description" content="Portfolio of Md. Al-Amin, graphic designer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="#top">Al-Amin</a>
+    <nav>
+      <a href="#works">Works</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO: apnar naam ar ek line-e porichoy -->
+    <section class="hero">
+      <h1>Md. Al-Amin</h1>
+      <p class="lead">Graphic designer. I turn ideas into clean, clear visuals.</p>
+      <div class="actions">
+        <a class="btn primary" href="#works">See my work</a>
+        <a class="btn" href="#contact">Contact me</a>
+      </div>
+    </section>
+
+    <!-- WORKS: 5-8 ta shera kaj. Proti card-er .thumb div ta muche <img> boshan (niche dekhun) -->
+    <section id="works" class="section">
+      <h2>Selected work</h2>
+      <div class="grid">
+
+        <figure class="card">
+                         <img src="images/project-1.jpg" alt="Short description of the design"> -->
+               <img src="images/project-1.jpg" alt="Short description of the design"> -->
+          <div class="thumb c1"></div>
+          <figcaption>
+            <h3>Project name 1</h3>
+            <p>What it was and what you did, in one line.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="thumb c2"></div>
+          <figcaption>
+            <h3>Project name 2</h3>
+            <p>What it was and what you did, in one line.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="thumb c3"></div>
+          <figcaption>
+            <h3>Project name 3</h3>
+            <p>What it was and what you did, in one line.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="thumb c4"></div>
+          <figcaption>
+            <h3>Project name 4</h3>
+            <p>What it was and what you did, in one line.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="thumb c5"></div>
+          <figcaption>
+            <h3>Project name 5</h3>
+            <p>What it was and what you did, in one line.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card">
+          <div class="thumb c6"></div>
+          <figcaption>
+            <h3>Project name 6</h3>
+            <p>What it was and what you did, in one line.</p>
+          </figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- ABOUT: nijer somporke choto likhun -->
+    <section id="about" class="section about">
+      <h2>About</h2>
+      <div class="about-body">
+        <p>I'm a designer from Bangladesh. I studied Photoshop at Grameen Academy and have worked at Neon Decor BD,].</p>
+        <p>[Fresh out of completing his HSC exams, he skipped conventional paths to build a solid year of professional experience in sales and digital marketing.
+
+His creative flair shines brightly through his mastery of digital design and his work on visual branding for projects like "Too Much Sense" and "NextGen News BD".
+
+Armed with a strategic mindset, he actively explores international remote opportunities while leveraging modern tools to stay ahead of the curve.
+
+By combining sharp business intuition with a proactive drive, he constantly creates his own opportunities rather than waiting for them.
+
+In short, driven by ambition and versatility, he is a dynamic young talent charging forward to carve out his own space in the digital world!]</p>
+        <ul class="skills">
+          <li>Adobe Photoshop</li>
+          <li>[Add another skill]</li>
+          <li>[Add another skill]</li>
+          <li>HTML and CSS (learning)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT: nijer link gulo boshan -->
+    <section id="contact" class="section contact">
+      <h2>Let's work together</h2>
+      <p>Send me a message and I'll reply as soon as I can.</p>
+      <ul class="links">
+        <li><a href="mailto:youremail@example.com">alaminhajra16@gmail.com</a></li>
+        <li><a href="www.linkedin.com/in/md-al-amin-3b0057447" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://wa.me/+880 1846436464" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="cv.pdf" download>Download my CV</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Md. Al-Amin</p>
+  </footer>
+
+</body>
+</html>
