@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Admin Panel // Access Restricted</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="admin-body">
+
+    <!-- লগইন সেকশন -->
+    <div id="login-screen" class="admin-box">
+        <h2>🔒 SYSTEM ACCESS RESTRICTED</h2>
+        <p>Enter Security Credentials to Bypass Firewall</p>
+        <input type="text" id="username" placeholder="Admin ID">
+        <input type="password" id="password" placeholder="Passcode">
+        <button onclick="handleLogin()">Authenticate</button>
+        <p id="error-msg" class="error"></p>
+    </div>
+
+    <!-- ড্যাশবোর্ড সেকশন (লগইন হওয়ার পর দেখাবে) -->
+    <div id="dashboard-screen" class="dashboard" style="display: none;">
+        <header>
+            <h1>🛡️ CORE SECURITY MONITOR</h1>
+            <button onclick="handleLogout()" class="logout-btn">Disconnect</button>
+        </header>
+        <div class="stats-grid">
+            <div class="card">
+                <h3>Firewall Status</h3>
+                <p class="status-green">SECURE [ACTIVE]</p>
+            </div>
+            <div class="card">
+                <h3>Unauthorized Access Attempts</h3>
+                <p id="attempts-count">142 (Blocked)</p>
+            </div>
+            <div class="card">
+                <h3>Server Load</h3>
+                <p>12.4% (Optimal)</p>
+            </div>
+        </div>
+        <div class="terminal-box">
+            <p>> System initialized successfully...</p>
+            <p>> Monitoring inbound requests from global nodes...</p>
+            <p>> Welcome back, Commander.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
